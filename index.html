@@ -1,44 +1,52 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Resume Theme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture">
+            <h1>Your Name</h1>
+            <p>Job Title / Profession</p>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
 
-{%- include head.html -%}
+    <main class="main-content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Your introduction...</p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <!-- Experience details -->
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <!-- Education details -->
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <!-- Projects details -->
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <!-- Contact details -->
+        </section>
+    </main>
 
-<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
-
-  {%- include header.html -%}
-
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-
-      {%- if jekyll.environment == 'production' and site.gtm -%}
-        {%- include gtm_body.html -%}
-      {%- endif -%}
-
-      {%- include about.html -%}
-
-      {%- if site.data.projects.size > 0 -%}
-        {%- include projects.html -%}
-      {%- endif -%}
-
-      {%- if site.data.experience.size > 0 -%}
-        {%- include experience.html -%}
-      {%- endif -%}
-
-      {%- if site.data.education.size > 0 -%}
-        {%- include education.html -%}
-      {%- endif -%}
-
-      {%- if site.more_content -%}
-        {%- include more.html -%}
-      {%- endif -%}
-
-    </div>
-  </main>
-
-  {%- include footer.html -%}
-  {% if site.darkmode == false %}
-    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
-  {% endif %}
+    <script src="script.js"></script>
 </body>
-
 </html>
