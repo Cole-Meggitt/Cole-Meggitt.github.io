@@ -1,10 +1,9 @@
-vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Cole meggitt
+Cole Meggitt
+Business Analyst
 
 Show Contacts
 
@@ -12,13 +11,13 @@ Email
 richard@example.com
 
 Phone
-+1 (213) 352-2795
++1 (403) 874-9566
 
 Birthday
-June 23, 1982
+June 10, 1998
 
 Location
-Sacramento, California, USA
+Calgary, Alberta, CAN
 
 # navbar
 
@@ -32,9 +31,7 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+Cool Gamer guy
 
 
 ## service
@@ -63,20 +60,20 @@ I make high-quality photos of any category at a professional level.
 Testimonials
 
 alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+John 1
+good guy
 
 alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+John 2
+cool guy
 
 alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+John 3
+cool good guy
 
 alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+John 4
+very nice
 
 
 ## clients
@@ -93,9 +90,9 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+University of Calgary, Haskayne School of Business
+20020 — 2024
+GPA: 99999
 
 New york academy of art
 2006 — 2007
